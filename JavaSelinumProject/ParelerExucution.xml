@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test thread-count="5" name="Test1">
+    <classes>
+      <class name="org.automationParelelExucution.MohammadSiraj"/>
+      <class name="org.automationParelelExucution.RishabhPanth"/>
+      <class name="org.automationParelelExucution.MahendraSinghDhoni"/>
+      <class name="org.automationParelelExucution.ViratKohli"/>
+      <class name="org.automationParelelExucution.RohitSharma"/>
+    </classes>
+  </test> <!-- Test -->
+    <test thread-count="5" name="Test2">
+     <classes>
+      <class name="org.automationParelelExucution.SuryakumarYadav"/>
+      <class name="org.automationParelelExucution.RavindaJadeja"/>
+      <class name="org.automationParelelExucution.JaspritBumrah"/>
+      <class name="org.automationParelelExucution.KLRahul"/>
+      <class name="org.automationParelelExucution.MohammadShami"/>
+      <class name="org.automationParelelExucution.RuturajGaikwad"/>
+      </classes>
+    </test>
+</suite> <!-- Suite -->
